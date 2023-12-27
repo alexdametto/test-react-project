@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Button, Text } from '@alexdametto/test-react-library';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Button, Text } from "@alexdametto/test-react-library";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <div className='bg-yellow-500 p-2'>
-          <Button className='underline' />
+        <div className="p-2">
+          <Button className="underline" />
           <Text />
         </div>
       </header>
